@@ -59,7 +59,7 @@ pageNavi.show=function(f,e,a){
 		c=1
 	}
 	
-	var b='<span class="pages"></span>';
+	var b='';
 	
 	if(c>1){
 		b+='<a href="'+f[1]+'">'+pageNaviConf.firstText+"</a>"
